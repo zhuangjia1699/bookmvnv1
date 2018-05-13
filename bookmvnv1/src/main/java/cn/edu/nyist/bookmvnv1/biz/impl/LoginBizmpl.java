@@ -11,5 +11,8 @@ public class LoginBizmpl implements LoginBiz {
 		LoginDao loginDao = new loginDaoJdbcImpl();
 		return loginDao.get(name , pwd);
 	}
+	public static void main(String[] args) {
+		System.out.println("11111111111111");
+	}
 
 }
